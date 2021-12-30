@@ -1,0 +1,273 @@
+!SESSION 2021-11-10 15:42:15.157 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=iw_IL
+Command-line arguments:  -data C:\Users\student\moshe emanul -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2021-11-10 15:57:02.869
+!MESSAGE Unhandled event loop exception
+
+!ENTRY org.eclipse.ui 4 0 2021-11-10 15:57:02.869
+!MESSAGE No more handles
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:3400)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.printing.Printer.create(Printer.java:219)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:129)
+	at org.eclipse.swt.printing.Printer.<init>(Printer.java:196)
+	at org.eclipse.jface.text.TextViewer.print(TextViewer.java:3952)
+	at org.eclipse.jface.text.TextViewer.doOperation(TextViewer.java:3538)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:862)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1519)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:178)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:201)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:131)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:129)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.ui.actions.RetargetAction.runWithEvent(RetargetAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SESSION 2021-11-10 15:57:11.631 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=iw_IL
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2021-11-10 16:22:20.655
+!MESSAGE Unhandled event loop exception
+
+!ENTRY org.eclipse.ui 4 0 2021-11-10 16:22:20.655
+!MESSAGE No more handles
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:3400)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.printing.Printer.create(Printer.java:219)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:129)
+	at org.eclipse.swt.printing.Printer.<init>(Printer.java:196)
+	at org.eclipse.jface.text.TextViewer.print(TextViewer.java:3952)
+	at org.eclipse.jface.text.TextViewer.doOperation(TextViewer.java:3538)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:862)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1519)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:178)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:201)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:131)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:129)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.ui.actions.RetargetAction.runWithEvent(RetargetAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+
+!ENTRY org.eclipse.ui 4 4 2021-11-10 16:22:42.966
+!MESSAGE Unhandled event loop exception
+
+!ENTRY org.eclipse.ui 4 0 2021-11-10 16:22:42.966
+!MESSAGE No more handles
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:3400)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.printing.Printer.create(Printer.java:219)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:129)
+	at org.eclipse.swt.printing.Printer.<init>(Printer.java:196)
+	at org.eclipse.jface.text.TextViewer.print(TextViewer.java:3952)
+	at org.eclipse.jface.text.TextViewer.doOperation(TextViewer.java:3538)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:862)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1519)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:178)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:201)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:131)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:129)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.ui.actions.RetargetAction.runWithEvent(RetargetAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+!SESSION 2021-11-10 16:22:48.613 -----------------------------------------------
+eclipse.buildId=M20070212-1330
+java.version=1.6.0_03
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=iw_IL
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2021-11-10 16:23:18.878
+!MESSAGE Unhandled event loop exception
+
+!ENTRY org.eclipse.ui 4 0 2021-11-10 16:23:18.878
+!MESSAGE No more handles
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:3400)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.printing.Printer.create(Printer.java:219)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:129)
+	at org.eclipse.swt.printing.Printer.<init>(Printer.java:196)
+	at org.eclipse.jface.text.TextViewer.print(TextViewer.java:3952)
+	at org.eclipse.jface.text.TextViewer.doOperation(TextViewer.java:3538)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:862)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1519)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:178)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:201)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:131)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:129)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.ui.actions.RetargetAction.runWithEvent(RetargetAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+
+!ENTRY org.eclipse.ui 4 4 2021-11-10 16:24:43.087
+!MESSAGE Unhandled event loop exception
+
+!ENTRY org.eclipse.ui 4 0 2021-11-10 16:24:43.087
+!MESSAGE No more handles
+!STACK 0
+org.eclipse.swt.SWTError: No more handles
+	at org.eclipse.swt.SWT.error(SWT.java:3400)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.printing.Printer.create(Printer.java:219)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:129)
+	at org.eclipse.swt.printing.Printer.<init>(Printer.java:196)
+	at org.eclipse.jface.text.TextViewer.print(TextViewer.java:3952)
+	at org.eclipse.jface.text.TextViewer.doOperation(TextViewer.java:3538)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:862)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1519)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:178)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:201)
+	at org.eclipse.ui.texteditor.TextOperationAction$1.run(TextOperationAction.java:131)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:129)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.ui.actions.RetargetAction.runWithEvent(RetargetAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:539)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:488)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1930)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1894)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:422)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:95)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:977)
+	at org.eclipse.core.launcher.Main.main(Main.java:952)
+
+!ENTRY org.eclipse.core.resources 2 2 2021-11-10 16:29:09.668
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-11-10 16:29:09.668
+!MESSAGE The project description file (.project) for first was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

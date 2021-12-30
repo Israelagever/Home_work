@@ -1,0 +1,16 @@
+#Wed Nov 10 15:57:04 IST 2021
+useQuickDiffPrefPage=true
+org.eclipse.jdt.ui.text.templates_migrated=true
+proposalOrderMigrated=true
+tabWidthPropagated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+useAnnotationsPrefPage=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs></history>
+org.eclipse.jface.textfont=1|Courier New|10|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=10
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+eclipse.preferences.version=1
+fontPropagated=true
